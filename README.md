@@ -1,4 +1,4 @@
-# 🤖 Project: Using Ollama with Python – Example
+# 🤖 Running AI Locally with Ollama
 
 This project demonstrates how to use locally hosted AI models with [Ollama](https://ollama.com/), integrating them into Python via two methods: using the official `ollama` Python library and through direct HTTP requests using `requests`.
 
@@ -42,10 +42,29 @@ Before starting, make sure you have the following installed:
 
 1. Clone this repository or download the project files.
 
-2. Install the dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+3. Activate the virtual environment
+
+- **Windows**:
+  ```bash
+  .\venv\Scripts\activate
+  ```
+
+- **Mac/Linux**:
+  ```bash
+  source venv/bin/activate
+  ```
+
+4. Install the dependencies
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
